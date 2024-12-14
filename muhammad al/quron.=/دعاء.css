@@ -1,0 +1,41 @@
+* {
+  margin: 50px;
+  padding: 0;
+}
+body {
+  background-image: url(./images.jpg);
+}
+.container {
+  margin: 30px;
+  background-color: azure;
+  filter: drop-shadow(2px 2px 20px black);
+}
+
+.header {
+  border: 2px solid black;
+  text-align: center;
+  filter: drop-shadow(-100px 20px 18px rgba(0, 0, 0, 0.503));
+  filter: drop-shadow(200px 200px 200px rgb(0, 0, 0));
+  background-color: green;
+  text-shadow: 0 0 10px cyan;
+}
+
+.header img {
+  filter: drop-shadow(20px 20px 20px rgb(16, 17, 14));
+}
+.header a {
+  border: 1px solid white;
+  color: black;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1em;
+  letter-spacing: 10px;
+  text-shadow: 0 0 10px cyan;
+}
+.header summary {
+  background-color: rgb(19, 21, 21);
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 2em;
+  letter-spacing: px;
+}

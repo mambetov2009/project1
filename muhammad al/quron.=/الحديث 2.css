@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.div {
+  text-align: center;
+  margin: 30px;
+  height: 110px;
+  border: solid black 85px hidden;
+}
+.div h2 {
+  text-shadow: 2px 2px crimson;
+  background-color: aqua;
+}
+.div h4 {
+  text-shadow: 0 0 10px cyan;
+  background-color: #f3f4f1;
+}
